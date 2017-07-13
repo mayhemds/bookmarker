@@ -3,9 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <title>BookMarker</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body onload="fetchBookmarks()">
-  
+<body onload="fetchBookmarks()" >
+<h1>bookmarker</h1>
+<hr>
+<div class="row">
+  <div class="callout primary">
+    <div class="row">
+      <h3 class="text-center">Bookmark your websites</h3>
+      <div class="medium-8 medium-centered columns">
+        <form id="myForm">
+          <label for="Website Name">Website Name
+          <input type="text" name="siteName" id="siteName" placeholder="Enter website name">
+          </label>
+          <label for="Website Url">Website Url
+          <input type="text" name="siteUrl" id="siteUrl" placeholder="Enter website url">
+          </label>
+          <button type="submit" class="button primary"name="button">submit</button>
+        </form>
+      </div>
 
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-12">
+    <div id="bookmarksResults"></div>
+  </div>
+</div>
+
+<footer>
+    <div class="row">
+      &copy; Tyrone May
+    </div>
+</footer>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
