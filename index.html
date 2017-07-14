@@ -6,22 +6,25 @@
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body onload="fetchBookmarks()" >
-<h1>bookmarker</h1>
+<body onload="fetchBookmarks()">
+  <div class="row">
+    <h1>bookmarkit</h1>
+  </div>
+
 <hr>
 <div class="row">
-  <div class="callout primary">
+  <div class=" medium-8 medium-centered large-8 columns callout primary">
     <div class="row">
       <h3 class="text-center">Bookmark your websites</h3>
-      <div class="medium-8 medium-centered columns">
-        <form id="myForm">
+      <div class="medium-10 medium-centered large-10 columns">
+        <form id="myForm" class="text-center">
           <label for="Website Name">Website Name
           <input type="text" name="siteName" id="siteName" placeholder="Enter website name">
           </label>
-          <label for="Website Url">Website Url
+          <label for="Website Url">Website URL
           <input type="text" name="siteUrl" id="siteUrl" placeholder="Enter website url">
           </label>
-          <button type="submit" class="button primary"name="button">submit</button>
+          <button type="submit" class="button large primary"name="button">submit</button>
         </form>
       </div>
 
@@ -36,6 +39,7 @@
 
 <footer>
     <div class="row">
+      <hr>
       &copy; Tyrone May
     </div>
 </footer>
