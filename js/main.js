@@ -93,10 +93,10 @@ function fetchBookmarks() {
         var url = bookmarks[i].url;
 
         bookmarksResults.innerHTML += '<div class="callout secondary">' +
-            '<h3>' + name +
-            ' <a class = "button primary" target="_blank" href="' + url + '">Visit Site</a>' +
-            ' <a onclick ="deleteBookmark(\'' + url + '\')" class = "button secondary" href="#">Delete</a>' +
-            '</h3>' +
+            '<h5>' + name +
+            ' <a onclick ="deleteBookmark(\'' + url + '\')" class = "button alert small float-right" href="#">Delete</a>' +
+            ' <a class = "button primary small float-right" target="_blank" href="' + url + '">Visit Site</a>' +
+            '</h5>' +
             '</div>';
     }
 } // Fetch Bookmark end

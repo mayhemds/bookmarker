@@ -1,3 +1,10 @@
-secondary {
-  background-color: grey;
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.callout.secondary {
+  background: #f9f9f9;
+}
+.button.primary {
+  margin: 0 0.5em;
 }
