@@ -1,7 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
+.logo {
+  padding: 1em 0;
+  margin: 0 auto;
+  display: block;
+}
+.callout.primary {
+  padding: 2em 0;
+  background: #fefefe;
+}
 .callout.secondary {
   background: #f9f9f9;
 }
