@@ -48,13 +48,11 @@ function saveBookmark(e) {
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 
     }
-
+    // Prevent form from submitting
+    e.preventDefault();
 
     // Re-fetch bookmarks
     fetchBookmarks();
-
-    // Prevent form from submitting
-    e.preventDefault();
 }
 
 // Delete Bookmarks
